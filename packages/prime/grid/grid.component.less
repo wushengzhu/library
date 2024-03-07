@@ -1,0 +1,39 @@
+:host {
+  ::ng-deep {
+
+    .ant-table-thead>tr>th,
+    .ant-table-tbody>tr>td,
+    .ant-table tfoot>tr>th,
+    .ant-table tfoot>tr>td {
+      padding: 12px 12px;
+    }
+  }
+
+  ::ng-deep {
+    .ant-divider-horizontal {
+      margin: 12px 0;
+    }
+
+    .hover-input {
+      position: relative;
+
+      .hover-delete {
+        display: none;
+      }
+
+      &:hover {
+        display: flex;
+        align-items: center;
+
+        .hover-delete {
+          display: block;
+          position: absolute;
+          right: 30px;
+          width: 10px;
+          color: rgb(162, 162, 163);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

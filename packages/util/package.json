@@ -1,0 +1,14 @@
+{
+  "name": "@lib/util",
+  "version": "1.2.23",
+  "dependencies": {
+    "tslib": "^2.0.0",
+    "crypto-js": "^4.1.1",
+    "dayjs": "^1.10.4"
+  },
+  "peerDependencies": {
+    "@angular/common": "^10.2.0",
+    "crypto-js": "^4.1.1",
+    "rxjs": "~6.6.0"
+  }
+}
